@@ -1,4 +1,4 @@
-package com.roynaldi19.bpai01_04widgets
+package com.roynaldi19.dc4_01widgets
 
 import android.app.PendingIntent
 import android.appwidget.AppWidgetManager
@@ -8,9 +8,7 @@ import android.content.Intent
 import android.os.Build
 import android.widget.RemoteViews
 
-/**
- * Implementation of App Widget functionality.
- */
+
 class RandomNumbersWidget : AppWidgetProvider() {
 
     companion object {

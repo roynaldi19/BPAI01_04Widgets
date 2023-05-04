@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">BPAI01_04Widgets</string>
+    <string name="app_name">DC4_01Widgets</string>
     <string name="appwidget_text">EXAMPLE</string>
     <string name="start_update">START UPDATE</string>
     <string name="stop_update">STOP UPDATE</string>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.roynaldi19.bpai01_04widgets">
+    package="com.roynaldi19.dc4_01widgets">
 
     <application
         android:allowBackup="true"
@@ -14,7 +14,7 @@
         android:theme="@style/Theme.BPAI01_04Widgets"
         tools:targetApi="31">
         <receiver
-            android:name=".RandomNumbersWidget"
+            android:name="com.roynaldi19.dc4_01widgets.RandomNumbersWidget"
             android:exported="false">
             <intent-filter>
                 <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
@@ -26,7 +26,7 @@
         </receiver>
 
         <activity
-            android:name=".MainActivity"
+            android:name="com.roynaldi19.dc4_01widgets.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
